@@ -22,7 +22,8 @@ function appendDriver (name) {
 }
 
 function prependDriver (name) {
- 
+   let newArr = drivers.concat(name)
+  return newArr
 }
 
 function removeFirstDriver () {
