@@ -22,7 +22,7 @@ function appendDriver (name) {
 }
 
 function prependDriver (name) {
-   let newArr = drivers.concat(name)
+   let newArr = [name,...drivers]
   return newArr
 }
 
