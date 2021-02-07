@@ -16,12 +16,12 @@ function appendDriver(name) {
 }
 
 function destructivelyRemoveFirstDriver() { 
- 
+ drivers.shift()
 }
 
 
 function appendDriver (name) {
-  
+  drivers.
 }
 
 function prependDriver (name) {
