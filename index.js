@@ -22,14 +22,16 @@ function appendDriver (name) {
 }
 
 function prependDriver (name) {
-   let newArr = [name,...drivers]
+  let newArr = [name,...drivers]
   return newArr
 }
 
 function removeFirstDriver () {
-  
+  let newArr = drivers.filter()
+  return newArr
 }
 
 function removeLastDriver () {
-  
+  let newArr = [name,...drivers]
+  return newArr
 }
