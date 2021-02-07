@@ -27,11 +27,11 @@ function prependDriver (name) {
 }
 
 function removeFirstDriver () {
-  let newArr = drivers.filter()
+  let newArr = drivers.slice(1,drivers.length)
   return newArr
 }
 
 function removeLastDriver () {
-  let newArr = [name,...drivers]
+  let newArr = drivers.slice(0,drivers.length)
   return newArr
 }
